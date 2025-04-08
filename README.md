@@ -1,16 +1,12 @@
 # ElasticQuery
 
-A simple Spring Boot application integrated with Elasticsearch for indexing and multi-field search.
+A  Spring Boot application integrated with Elasticsearch for indexing and multi-field search.
 
 ---
 
 
 
-##  Project Overview
 
-This project demonstrates how to index data into Elasticsearch and perform multi-field full-text search using Spring Boot.
-
----
 
 ##  Indexing Dummy Data
 
