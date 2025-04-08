@@ -1,6 +1,3 @@
-All good — no worries, I’ve got you! Here's the **final full `README.md` file** with **Search API** and **Sample Query** *already included and formatted* — everything in place and clean:
-
-
 # ElasticQuery
 
 A simple Spring Boot application integrated with Elasticsearch for indexing and multi-field search.
