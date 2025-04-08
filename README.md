@@ -4,20 +4,15 @@ A simple Spring Boot application integrated with Elasticsearch for indexing and 
 
 ---
 
-## 🛠 Tech Stack
 
-- Spring Boot  
-- Elasticsearch (Java API Client)
 
----
-
-## 📦 Project Overview
+##  Project Overview
 
 This project demonstrates how to index data into Elasticsearch and perform multi-field full-text search using Spring Boot.
 
 ---
 
-## 📌 Indexing Dummy Data
+##  Indexing Dummy Data
 
 Dummy articles are indexed into the `articles` index.
 
@@ -41,9 +36,7 @@ public void indexDummyData() {
 }
 ```
 
-> Indexes a predefined list of articles into Elasticsearch.
 
----
 
 ## 🔍 Search API
 
@@ -86,7 +79,7 @@ public List<Article> search(@RequestParam("q") String query) throws IOException 
 
 ---
 
-## ✅ Sample Query
+##  Sample Query
 
 **Request:**
 
@@ -108,33 +101,3 @@ GET http://localhost:8080/search?q=use
 
 > Returns articles that contain the word `use` in the title or content.
 
----
-
-## 🚀 How to Run
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-repo/elastic-query.git
-   cd elastic-query
-   ```
-
-2. **Start Elasticsearch**  
-   Ensure Elasticsearch is running locally (default port `9200`).
-
-3. **Run the application**
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-
-4. **Test the API**
-   Open in browser or Postman:  
-   [http://localhost:8080/search?q=your-keyword](http://localhost:8080/search?q=your-keyword)
-
----
-
-## 📄 License
-
-MIT License. Use freely and modify as needed.
-```
-
-You're all set now! Want me to help generate that `Article` model or add Swagger docs next?
